@@ -1,0 +1,38 @@
+{
+  "name": "@heraclius/collection",
+  "version": "0.1.0",
+  "description": "提供一系列集合对象，旨在实现数据的持久化保存。同时，提供API接口，方便进行数据的增加、删除、修改和查询操作",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@heraclius/external-deps-plugin": "^0.1.1",
+    "@heraclius/js-tools": "^0.1.0",
+    "@heraclius/query": "^0.1.0",
+    "@types/node": "^20.14.10",
+    "@types/sql.js": "^1.4.9",
+    "@types/uuid": "^10.0.0",
+    "sql.js": "^1.10.3",
+    "unplugin-swc": "^1.5.1",
+    "uuid": "^10.0.0",
+    "vite": "^5.3.3",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^1.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@heraclius/js-tools": "^0.1.0",
+    "@heraclius/query": "^0.1.0",
+    "sql.js": "^1.10.3",
+    "uuid": "^10.0.0"
+  }
+}
