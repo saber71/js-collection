@@ -9,46 +9,46 @@ importers:
   .:
     devDependencies:
       '@heraclius/external-deps-plugin':
-        specifier: ^0.1.1
+        specifier: latest
         version: 0.1.1(vite@5.3.3(@types/node@20.14.10))
       '@heraclius/js-tools':
-        specifier: ^0.1.0
+        specifier: latest
         version: 0.1.0
       '@heraclius/query':
-        specifier: ^0.1.0
+        specifier: latest
         version: 0.1.0(deep-equal@2.2.3)
       '@types/node':
-        specifier: ^20.14.10
+        specifier: latest
         version: 20.14.10
       '@types/sql.js':
-        specifier: ^1.4.9
+        specifier: latest
         version: 1.4.9
       '@types/uuid':
         specifier: ^10.0.0
         version: 10.0.0
       keyv:
-        specifier: ^4.5.4
+        specifier: latest
         version: 4.5.4
       keyv-file:
-        specifier: ^0.3.1
+        specifier: latest
         version: 0.3.1
       sql.js:
-        specifier: ^1.10.3
+        specifier: latest
         version: 1.10.3
       unplugin-swc:
-        specifier: ^1.5.1
+        specifier: latest
         version: 1.5.1(@swc/core@1.6.7)(rollup@4.18.1)
       uuid:
         specifier: ^10.0.0
         version: 10.0.0
       vite:
-        specifier: ^5.3.3
+        specifier: latest
         version: 5.3.3(@types/node@20.14.10)
       vite-plugin-dts:
-        specifier: ^3.9.1
+        specifier: latest
         version: 3.9.1(@types/node@20.14.10)(rollup@4.18.1)(typescript@5.4.2)(vite@5.3.3(@types/node@20.14.10))
       vitest:
-        specifier: ^2.0.2
+        specifier: latest
         version: 2.0.2(@types/node@20.14.10)
 
 packages:
