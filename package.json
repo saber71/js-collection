@@ -10,9 +10,9 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "@heraclius/external-deps-plugin": "^1.0.0",
-    "@heraclius/js-tools": "^1.0.0",
-    "@heraclius/query": "^1.0.0",
+    "@heraclius/external-deps-plugin": "^1.1.0",
+    "@heraclius/js-tools": "^1.1.0",
+    "@heraclius/query": "^1.1.0",
     "@types/node": "^20.14.11",
     "@types/sql.js": "^1.4.9",
     "@types/uuid": "^10.0.0",
