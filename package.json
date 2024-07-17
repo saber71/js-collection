@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@heraclius/external-deps-plugin": "^1.0.0",
-    "@heraclius/js-tools": "^0.1.0",
-    "@heraclius/query": "^0.1.0",
+    "@heraclius/js-tools": "^1.0.0",
+    "@heraclius/query": "^1.0.0",
     "@types/node": "^20.14.11",
     "@types/sql.js": "^1.4.9",
     "@types/uuid": "^10.0.0",
@@ -32,8 +32,8 @@
     "dist"
   ],
   "peerDependencies": {
-    "@heraclius/js-tools": "^0.1.0",
-    "@heraclius/query": "^0.1.0",
+    "@heraclius/js-tools": "^1.0.0",
+    "@heraclius/query": "^1.0.0",
     "keyv": "^4.5.4",
     "keyv-file": "^0.3.1",
     "sql.js": "^1.10.3",
