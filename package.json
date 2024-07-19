@@ -1,6 +1,6 @@
 {
   "name": "@heraclius/collection",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "提供一系列集合对象，旨在实现数据的持久化保存。同时，提供API接口，方便进行数据的增加、删除、修改和查询操作",
   "type": "module",
   "main": "dist/index.js",

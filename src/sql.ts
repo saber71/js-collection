@@ -65,19 +65,14 @@ export class SqlCollection<V extends QueryItem = QueryItem> implements ICollecti
   save<Item extends V = V>(...items: Array<Omit<Item, "_id"> & { _id?: string }>): Item[] {
     const result: Item[] = []
     for (let item of items) {
-      let data: any
+      let data: any = item
       let insert = false
       if (item._id) {
-        data = this.getById(item._id)
-        if (!data) {
-          data = {}
-          insert = true
-        }
+        insert = !this.getById(item._id)
       } else {
         data = Object.assign({ _id: v4() }, item)
         insert = true
       }
-      Object.assign(data, item)
       result.push(data)
       if (insert) this._db.run(`insert into ${this.name} values ('${data._id}','${JSON.stringify(data)}')`)
       else this._db.run(`update ${this.name} set data = '${JSON.stringify(data)}' where id = '${data._id}'`)
